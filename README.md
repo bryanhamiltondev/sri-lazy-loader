@@ -51,7 +51,6 @@ On thedjcalendar.com, every city page and the "Next Show Radar" map calls `loadL
 
 The `loadLeaflet()` helper is included as the documented real-world use case:
 
-```js
 function loadLeaflet() {
   return loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', {
     integrity: 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=',
@@ -60,7 +59,6 @@ function loadLeaflet() {
     return window.L;
   });
 }
-```
 
 ---
 
@@ -80,3 +78,5 @@ function loadLeaflet() {
 
 - [dj-card-preview](https://github.com/bryanhamiltondev/dj-card-preview) — hover-preview system that uses this loader for its Leaflet dependency on map-rich pages
 - [next-show-radar](https://github.com/bryanhamiltondev/next-show-radar) — the map widget this loader was built to support
+
+Built by Bryan Hamilton
